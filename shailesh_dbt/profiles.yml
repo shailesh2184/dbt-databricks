@@ -1,0 +1,14 @@
+shailesh_dbt:
+  outputs:
+    dev:
+      catalog: dbt_tutorial_dev
+      host: dbc-5882feb5-2116.cloud.databricks.com
+      http_path: /sql/1.0/warehouses/7c7e011a5b0791b2
+      schema: default
+      threads: 1
+      token: dapib2a9b6defccbee2e025c827428e52408
+      type: databricks
+  target: dev
+
+
+#### CONFIGURE profiles.yml and profilesPS.yml
